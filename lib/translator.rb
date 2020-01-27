@@ -16,7 +16,7 @@ def load_library(emoticon)
      
    end
   # binding.pry
-  
+  binding.pry
 return new_hash
 
 
