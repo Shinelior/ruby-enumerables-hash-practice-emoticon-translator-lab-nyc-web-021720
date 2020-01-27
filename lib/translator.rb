@@ -4,7 +4,7 @@ require "pry"
 def load_library(emoticon)
   
   original_list = YAML.load_file(emoticon)
-  
+  binding.pry
   new_hash = {:get_meaning => {}, :get_emoticon => {}}
    original_list.each do |key,array_value|
      english = array_value[0] 
